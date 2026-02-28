@@ -14,6 +14,15 @@
   background-color: #ffffff;
 }
 
+.ddns_go_manager .unas_content_right {
+  text-align: center;
+}
+
+.unas_content_right .project-addr {
+  height: 20px;
+  margin: 10px auto;
+}
+
 .ddns_go_page_logo {
   width: 128px;
   height: 128px;
@@ -23,12 +32,24 @@
   display: block;
 }
 
+.ddns-item-li .unas_item_li {
+  width: 390px;
+}
+
 .ddns-item-li .span_left {
   width: 150px;
+}
+
+.ddns-item-li span .unas_input {
+  width: 200px;
 }
 
 .ddns-item-li .unas_item_li .input_warning_info {
   display: block;
   float: right;
   color: #f24141;
+}
+
+.ddns-item-li .unas_item_li .unas_select {
+  padding-right: 0px;
 }

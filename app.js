@@ -9,11 +9,11 @@ var DdnsGoApp = DdnsGoApp || {} //Define ddns-go App namespace.
 DdnsGoApp.App = function () {
   this.id = 'DDNS GO'
   this.name = 'DDNS GO'
-  this.version = '6.0.7'
+  this.version = '6.0.2'
   this.active = false
-  this.menuIcon = '/apps/ddns-go/images/logo.png?v=6.0.7&'
-  this.shortcutIcon = '/apps/ddns-go/images/logo.png?v=6.0.7&'
-  this.entryUrl = '/apps/ddns-go/ddns-go.html?v=6.0.7&'
+  this.menuIcon = '/apps/ddns-go/images/logo.png?v=6.0.2&'
+  this.shortcutIcon = '/apps/ddns-go/images/logo.png?v=6.0.2&'
+  this.entryUrl = '/apps/ddns-go/index.html?v=6.0.2&'
   var self = this
   this.DdnsGoAppWindow = function () {
     if (UNAS.CheckAppState('DDNS GO')) {
@@ -22,7 +22,7 @@ DdnsGoApp.App = function () {
     self.window = new MUI.Window({
       id: 'DdnsGoAppWindow',
       title: UNAS._('DDNS GO'),
-      icon: '/apps/ddns-go/images/logo_small.png?v=6.0.7&',
+      icon: '/apps/ddns-go/images/logo_small.png?v=6.0.2&',
       loadMethod: 'xhr',
       width: 750,
       height: 480,
@@ -30,8 +30,8 @@ DdnsGoApp.App = function () {
       resizable: true,
       scrollbars: false,
       resizeLimit: { x: [200, 2000], y: [150, 1500] },
-      contentURL: '/apps/ddns-go/ddns-go.html?v=6.0.7&',
-      require: { css: ['/apps/ddns-go/css/ddns-go.css'] },
+      contentURL: '/apps/ddns-go/index.html?v=6.0.2&',
+      require: { css: ['/apps/ddns-go/css/index.css'] },
       onBeforeBuild: function () {
         UNAS.SetAppOpenedWindow('DDNS GO', 'DdnsGoAppWindow')
       },

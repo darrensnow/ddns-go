@@ -1,0 +1,54 @@
+﻿{
+    "UNASTranslation": [
+        {
+            "language": "简体中文",
+            "table": [
+                [
+                    "DDNS GO",
+                    "0",
+                    "DDNS GO"
+                ],
+                [
+                    "Internet",
+                    "0",
+                    "互联网"
+                ],
+                [
+                    "This is an U-NAS DDNS App that provides DDNS services through DDNS GO.",
+                    "0",
+                    "基于DDNS GO实现的UNAS DDNS套件，用于提供DDNS服务。"
+                ],
+                [
+                    "QingCheng",
+                    "0",
+                    "青城"
+                ]
+            ]
+        },
+        {
+            "language": "한국어",
+            "table": [
+                [
+                    "DDNS GO",
+                    "0",
+                    "DDNS GO"
+                ],
+                [
+                    "Internet",
+                    "0",
+                    "인터넷"
+                ],
+                [
+                    "This is an U-NAS DDNS App that provides DDNS services through DDNS GO.",
+                    "0",
+                    "DDNS서비스를제공하는DDNS GO기반UNAS DDNS애플리케이션."
+                ],
+                [
+                    "QingCheng",
+                    "0",
+                    "QingCheng"
+                ]
+            ]
+        }
+    ]
+}

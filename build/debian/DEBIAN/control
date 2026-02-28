@@ -1,0 +1,8 @@
+Package: 包名
+Version: 版本
+Section: 分类
+Priority: optional
+Architecture: amd64
+Depends: 依赖包
+Maintainer: 开发者
+Description: 描述
